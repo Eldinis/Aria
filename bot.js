@@ -408,7 +408,7 @@ client.on('message', message => {
 	// Lance le menu des commandes
 	commandes( message, cmd, args );
 });
-
+/*
 const { Client2 } = require('pg');
 
 const client2 = new Client2({
@@ -417,7 +417,7 @@ const client2 = new Client2({
 });
 
 client2.connect();
-
+*/
 client.on('ready', () => {
   console.log( client.user.username + ' [' + client.user.id + '] est en ligne!');
 });
