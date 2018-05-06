@@ -1,6 +1,6 @@
 {
-  "name": "Amaterasu",
-  "description": "Kami",
+  "name": "ARiA",
+  "description": "Aikatsu bot",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts":{
