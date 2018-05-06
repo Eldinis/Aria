@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const https = require('https');
 
-/*** Generic variables ***/
+/** Generic variables **/
 
 var red = 0x880000;
 var green = 0x008800;
@@ -14,7 +14,7 @@ var white = 0xffffff;
 var black = 0x000000;
 var brown = 0x7a3b00;
 	
-/*** Generic functions ***/
+/** Generic functions **/
 
 function randomNumber(n){
 	return Math.floor(Math.random()*n) + 1;
