@@ -408,11 +408,12 @@ client.on('message', message => {
 	// Lance le menu des commandes
 	commandes( message, cmd, args );
 });
+
 const { Client2 } = require('pg');
 
 const client2 = new Client2({
   connectionString: process.env.DATABASE_URL,
-  ssl: true,
+  ssl: true
 });
 
 client2.connect();
