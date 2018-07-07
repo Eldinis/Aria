@@ -421,5 +421,5 @@ client.on('ready', () => {
 client.on('error', error => {
 	console.log( error.message ); 
 });
-
+ 
 client.login(process.env.BOT_TOKEN).catch(console.error);
