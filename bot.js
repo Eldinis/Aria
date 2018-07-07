@@ -370,10 +370,10 @@ function commandes( message, cmd, args ){
 		}
 		else if( message.mentions ){
 			var user = message.mentions.users.first();
-			//if(!user.bot){
+			if(!user.bot){
 				var r_embed = fetchPlayer(user.id).getProfile(user);
 				message.channel.send({embed:r_embed}).catch(console.error);
-			//}
+			}
 		}
 		else {
 			var idol = getIdol(args);
